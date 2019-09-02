@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BaiTapLonCuaLinh</string>
+    <string name="baiviet">Bài viết</string>
+    <string name="nguoitheodoi">Người theo dõi</string>
+    <string name="banbe">Bạn bè</string>
+    <string name="ten">tên</string>
+    <string name="gioitieu">Giới thiệu</string>
+    <string name="chinhsua">Chỉnh sửa trang cá nhân</string>
+</resources>

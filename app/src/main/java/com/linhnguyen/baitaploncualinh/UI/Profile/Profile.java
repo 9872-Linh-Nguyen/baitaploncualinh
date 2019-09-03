@@ -1,8 +1,10 @@
-package com.linhnguyen.baitaploncualinh;
+package com.linhnguyen.baitaploncualinh.UI.Profile;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.linhnguyen.baitaploncualinh.R;
 
 public class Profile extends AppCompatActivity {
 

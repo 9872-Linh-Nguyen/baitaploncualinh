@@ -1,4 +1,4 @@
-package com.linhnguyen.baitaploncualinh;
+package com.linhnguyen.baitaploncualinh.UI.HomePage;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.QuickContactBadge;
+
+import com.linhnguyen.baitaploncualinh.R;
+import com.linhnguyen.baitaploncualinh.UI.Profile.Profile;
 
 public class MainActivity extends AppCompatActivity {
     private ImageButton img_profile;

@@ -3,8 +3,6 @@
     xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.linhnguyen.baitaploncualinh">
 
-    <dist:module dist:instant="true" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,8 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Profile"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".UI.Profile.Profile"></activity>
+        <activity android:name=".UI.HomePage.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,5 +19,6 @@
             </intent-filter>
         </activity>
     </application>
+    <dist:module dist:instant="true" />
 
 </manifest>

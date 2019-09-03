@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UI.Profile.Profile"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".UI.Profile.Profile">
 
     <LinearLayout
-        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="horizontal">
         <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/profile_image"
@@ -29,9 +29,9 @@
             android:paddingLeft="10dp">
 
             <LinearLayout
-                android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -41,16 +41,17 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:gravity="center"
+                        android:id="@+id/postValue"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         tools:text="123" />
 
                     <TextView
-                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:text="@string/baiviet" />
                 </LinearLayout>
 
@@ -61,16 +62,17 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:gravity="center"
+                        android:id="@+id/followerValue"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         tools:text="123" />
 
                     <TextView
-                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:text="@string/nguoitheodoi" />
                 </LinearLayout>
 
@@ -81,16 +83,17 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:gravity="center"
+                        android:id="@+id/friendValue"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         tools:text="123" />
 
                     <TextView
-                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:text="@string/banbe" />
                 </LinearLayout>
             </LinearLayout>
@@ -103,35 +106,38 @@
                 android:paddingTop="10dp">
 
                 <TextView
+                    android:id="@+id/profile_Name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/ten" />
 
                 <TextView
-                    android:paddingTop="10dp"
+                    android:id="@+id/profile_bio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:paddingTop="10dp"
                     android:text="@string/gioitieu" />
             </LinearLayout>
 
             <TextView
-                android:paddingVertical="10dp"
+                android:id="@+id/profile_edit"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/chinhsua"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="@string/chinhsua" />
 
         </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
     </LinearLayout>
-<GridView
-    android:numColumns="3"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        tools:listitem="@layout/item_image_profile" />
+
 </LinearLayout>

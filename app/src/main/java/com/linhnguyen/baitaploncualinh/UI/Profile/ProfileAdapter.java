@@ -15,13 +15,14 @@ import java.util.List;
 public class ProfileAdapter extends BaseAdapter {
     private List<ProfileModel> list;
     private Context context;
-    private LayoutInflater inflater = LayoutInflater.from(context);
+    private LayoutInflater inflater;
     private int resource;
 
     public ProfileAdapter( Context context,  int resource, List<ProfileModel> list) {
         this.list = list;
         this.context = context;
         this.resource = resource;
+        this.inflater = inflater.from(context);
     }
 
     @Override

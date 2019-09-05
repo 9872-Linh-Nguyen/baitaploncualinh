@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.linhnguyen.baitaploncualinh.R;
 import com.linhnguyen.baitaploncualinh.UI.Profile.Profile;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Contact.View {
     //Widget
     private ImageButton img_profile;
     //Intent
@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
     private void init() {
         img_profile = findViewById(R.id.img_profile);
         img_profile.setOnClickListener(view -> {
-            startActivity(new Intent(getApplicationContext(), Profile.class));
+            intent = new Intent(this, Profile.class);
+            startActivity(intent);
         });
     }
 

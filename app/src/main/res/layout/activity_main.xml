@@ -68,6 +68,7 @@
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
+            tools:listitem="item"
             android:id="@+id/recycle_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

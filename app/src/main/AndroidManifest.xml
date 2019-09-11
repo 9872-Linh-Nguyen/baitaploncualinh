@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".UI.Profile.Profile"></activity>
+        <activity android:name=".UI.Login.LoginActivity"></activity>
+        <activity android:name=".UI.Profile.Profile" />
         <activity android:name=".UI.HomePage.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +20,8 @@
             </intent-filter>
         </activity>
     </application>
+    <dist:module dist:instant="true" />
+
     <dist:module dist:instant="true" />
 
 </manifest>

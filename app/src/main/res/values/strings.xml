@@ -6,4 +6,18 @@
     <string name="ten">tên</string>
     <string name="gioitieu">Giới thiệu</string>
     <string name="chinhsua">Chỉnh sửa trang cá nhân</string>
+<!--    Login   -->
+    <string name="label_name">Tên đăng nhập</string>
+    <string name="label_password">Mật khẩu</string>
+    <string name="hint_name">name@example.com</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="button_login">Đăng nhập</string>
+    <resources>
+        <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+        <string name="facebook_application_id" translatable="false">YOUR_APP_ID</string>
+        <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+        <!-- Twitter consumer key and secret -->
+        <string name="twitter_consumer_key" translatable="false">YOUR_CONSUMER_KEY</string>
+        <string name="twitter_consumer_secret" translatable="false">YOUR_CONSUMER_SECRET</string>
+    </resources>
 </resources>

@@ -21,7 +21,4 @@
         </activity>
     </application>
     <dist:module dist:instant="true" />
-
-    <dist:module dist:instant="true" />
-
 </manifest>

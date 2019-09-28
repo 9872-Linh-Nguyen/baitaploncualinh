@@ -1,4 +1,4 @@
-package com.btl.baitaploncualinh.Login;
+package com.btl.baitaploncualinh.login;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.btl.baitaploncualinh.Home.HomeActivity;
+import com.btl.baitaploncualinh.home.HomeActivity;
 import com.btl.baitaploncualinh.R;
 
 public class LoginActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.btl.baitaploncualinh.Home;
+package com.btl.baitaploncualinh.home;
 
 import android.graphics.LinearGradient;
 import android.graphics.Shader;

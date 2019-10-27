@@ -22,7 +22,6 @@
             </intent-filter>
         </activity>
     </application>
-
     <dist:module dist:instant="true" />
 
 </manifest>

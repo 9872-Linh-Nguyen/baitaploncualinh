@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-.idea/
-.gradle/
-=======
+
 *.iml
 .idea
 .gradle
@@ -17,4 +14,3 @@
 /captures
 .externalNativeBuild
 .cxx
->>>>>>> c8ef74b... make project

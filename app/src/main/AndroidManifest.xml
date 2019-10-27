@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.linhnguyen.baitaploncualinh">
+    package="com.btl.baitaploncualinh">
 
     <application
         android:allowBackup="true"
@@ -10,18 +10,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".UI.Login.LoginActivity"></activity>
-        <activity android:name=".UI.Profile.Profile" />
-        <activity android:name=".UI.HomePage.MainActivity">
+        <activity android:name=".home.HomeActivity"></activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-    <dist:module dist:instant="true" />
-
     <dist:module dist:instant="true" />
 
 </manifest>
